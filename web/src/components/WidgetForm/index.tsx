@@ -8,21 +8,21 @@ import { FeedbackSuccessStep } from './Steps/FeedbackSuccessStep';
 
 export const feedbackTypes = {
   BUG: {
-    title: 'Problema',
+    title: 'Bug',
     image: {
       source: bugImageUrl,
       alt: 'Imagem de um inseto'
     }
   },
   IDEA: {
-    title: 'Ideia',
+    title: 'Idea',
     image: {
       source: ideaImageUrl,
       alt: 'Imagem de um lâmpada'
     }
   },
   OTHER: {
-    title: 'Outro',
+    title: 'Other',
     image: {
       source: thoughtImageUrl,
       alt: 'Imagem de um balão de pensamento'
@@ -61,7 +61,7 @@ export function WidgetForm() {
       )}
 
       <footer className="text-xs text-neutral-400">
-        Feito com ♥ pela <a className="underline underline-offset-2" href="https://rocketseat.com.br">Rocketseat</a>
+        Made with ♥ by <a className="underline underline-offset-2" href="https://github.com/mateus-holanda">Mateus Holanda</a>
       </footer>
     </div>
   )
